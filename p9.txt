@@ -52,6 +52,7 @@ def display_unique_faces(pics):
     plt.show()
 
 display_unique_faces(data.images)
+from sklearn.model_selection import train_test_split
 
 X = data.data
 Y = data.target
